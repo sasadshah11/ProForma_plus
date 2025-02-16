@@ -56,6 +56,7 @@ void test_parseSimpleModification()
     std::cerr << "test_parseSimpleModification FAILED: Expected " << proforma_str << " but got " << output << std::endl;
   }
 }
+
 void test_parseMassShiftModification()
 {
   OpenMS::AASequence seq = OpenMS::AASequence::fromString("ACDEFGHIK");
